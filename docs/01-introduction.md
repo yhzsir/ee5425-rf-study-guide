@@ -102,6 +102,7 @@ GPS定位（约1.5GHz）、4G/5G手机通信（Sub-6GHz，如700MHz-3.5GHz，
 <details><summary>点击查看答案</summary>
 
 dB可以直接相加减：
+
 ```
 P_out = P_in - 线损 + LNA增益
       = -80dBm - 0.8dB + 25dB
