@@ -73,7 +73,7 @@ P_out = P_in - 传输线损耗 + LNA增益
 > dB是相对增益/损耗（比值），二者相加减是合法的，但两个dBm不能直接相加。
 
 ## 自测题
-1. 说出3个你日常使用的RF应用及其大致工作频段
+**1.** 说出3个你日常使用的RF应用及其大致工作频段
 
 <details><summary>点击查看答案</summary>
 
@@ -83,7 +83,7 @@ GPS定位（约1.5GHz）、4G/5G手机通信（Sub-6GHz，如700MHz-3.5GHz，
 
 </details>
 
-2. 解释为什么手机天线设计要考虑传输线效应，而普通LED电路不用考虑
+**2.** 解释为什么手机天线设计要考虑传输线效应，而普通LED电路不用考虑
 
 <details><summary>点击查看答案</summary>
 
@@ -97,7 +97,7 @@ GPS定位（约1.5GHz）、4G/5G手机通信（Sub-6GHz，如700MHz-3.5GHz，
 
 </details>
 
-3. 某接收链路输入-80dBm，经过0.8dB线损和25dB LNA增益，求LNA输出功率（dBm）
+**3.** 某接收链路输入-80dBm，经过0.8dB线损和25dB LNA增益，求LNA输出功率（dBm）
 
 <details><summary>点击查看答案</summary>
 
