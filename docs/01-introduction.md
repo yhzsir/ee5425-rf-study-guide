@@ -74,8 +74,41 @@ P_out = P_in - 传输线损耗 + LNA增益
 
 ## 自测题
 1. 说出3个你日常使用的RF应用及其大致工作频段
+
+<details><summary>点击查看答案</summary>
+
+参考答案（不唯一）：Wi-Fi（2.4GHz / 5GHz / 6GHz）、蓝牙（2.4GHz）、
+GPS定位（约1.5GHz）、4G/5G手机通信（Sub-6GHz，如700MHz-3.5GHz，
+5G毫米波可到28/39GHz）、微波炉（2.45GHz）、车用雷达（77GHz毫米波雷达）。
+
+</details>
+
 2. 解释为什么手机天线设计要考虑传输线效应，而普通LED电路不用考虑
+
+<details><summary>点击查看答案</summary>
+
+判据是"物理尺寸 vs 信号波长"。手机天线工作在GHz量级，例如2.4GHz对应
+自由空间波长约12.5cm，天线及其馈线的尺寸（几厘米）已经和波长同量级
+（超过λ/10），电磁波传播时间不可忽略，电压/电流沿线变化，必须用传输线
+理论（分布参数）设计馈线并做阻抗匹配。而普通LED电路工作在直流或很低频率
+（如几十Hz-kHz的PWM调光），对应波长长达几千公里甚至无穷大，
+电路板上几厘米的走线相对波长可忽略不计，可以直接用集总参数电路分析
+（导线电压处处相等），不需要考虑传输线效应。
+
+</details>
+
 3. 某接收链路输入-80dBm，经过0.8dB线损和25dB LNA增益，求LNA输出功率（dBm）
+
+<details><summary>点击查看答案</summary>
+
+dB可以直接相加减：
+```
+P_out = P_in - 线损 + LNA增益
+      = -80dBm - 0.8dB + 25dB
+      = -55.8dBm
+```
+
+</details>
 
 ---
 下一节：[Module 2 — Transmission Lines and Smith Chart →](02-transmission-lines.md)
