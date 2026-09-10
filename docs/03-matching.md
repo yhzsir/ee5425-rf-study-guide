@@ -11,6 +11,10 @@
 - `Get the right ELL_r2.pdf`（如何选对L型匹配拓扑）
 - `Worksheet 2 Impedance Matching.pdf`
 
+## 📺 推荐视频
+- [Impedance Matching Using Stubs - Part 1（Ansys Innovation Courses）](https://innovationspace.ansys.com/courses/courses/impedance-matching/lessons/impedance-matching-using-stubs-part-1-lesson-1/) — L型匹配、单/双支节匹配、λ/4变换器完整讲解（含Smith圆图实操，00:00-34:52为L-section部分）
+- [Smith Chart Impedance Matching: Step-by-Step L-Network Design（rftools.io）](https://rftools.io/blog/smith-chart-impedance-matching-tutorial/) — 带具体数值例题的L网络设计图文教程
+
 ## 学习目标
 掌握**阻抗匹配**的核心技术——把任意负载阻抗变换到系统特性阻抗（通常50Ω），
 使反射系数Γ=0，实现最大功率传输、消除驻波。

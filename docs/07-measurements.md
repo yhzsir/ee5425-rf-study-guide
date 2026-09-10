@@ -6,6 +6,11 @@
 - `EE5425_CityUHK-DG_7_Measurements_2026Ar0.pdf`
 - `EE5425_CityUHK-DG_7_Network Analyzer Display.pdf`
 
+## 📺 推荐视频
+- [Understanding VNA Calibration Basics（Rohde & Schwarz）](https://www.youtube.com/watch?v=bLfbg2p7PaE) — SOLT校准原理与步骤（12分钟）
+- [Mini-Circuits eVNA Vector Network Analyzer - SOLT Calibration](https://www.everythingrf.com/videos/details/4572-mini-circuits-evna-vector-network-analyzer-solt-calibration) — 全2端口SOLT校准实操演示
+- [Understanding Spectrum Analyzers – Noise Figure（Rohde & Schwarz）](https://www.everythingrf.com/videos/details/4921-understanding-spectrum-analyzers-noise-figure) — 用频谱分析仪做Y-factor噪声系数测量的简明介绍
+
 ## 7.1 常用RF测量仪器
 | 仪器 | 测量内容 |
 |---|---|

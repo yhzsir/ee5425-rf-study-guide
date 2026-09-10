@@ -4,6 +4,10 @@
 
 **对应文件**：`CityUHK-DG_EE5425_1_FoRCE_Introduction_2026ArCL_Sr1.pdf`
 
+## 📺 推荐视频
+- [#78: RF & Microwave Engineering: An Introduction for Students](https://www.youtube.com/watch?v=A9SNdF7UP18) — RF工程全局概览，为什么RF基础值得系统学习
+- [RF System and its Components（Insidewifi）](https://www.youtube.com/watch?v=jGJmjJkhknQ) — RF系统组成部件（放大器/滤波器/振荡器等）速览
+
 ## 学习目标
 理解RF工程的应用背景、频段划分、以及为什么RF电路设计与低频/数字电路设计方法完全不同。
 

@@ -10,6 +10,10 @@
 
 这是**全课程最重要的基础模块**，Smith圆图会贯穿到Module 3、5、6。
 
+## 📺 推荐视频
+- [Basic Tools of Microwave Engineering (Prof. Amitabha Bhattacharya, IIT Kharagpur) — Smith Chart 教程](http://www.infocobuild.com/education/audio-video-courses/electronics/BasicToolsMicrowaveEngineering-IIT-Kharagpur/lecture-10.html) — Smith圆图基础与匹配网络设计
+- [Lecture 08: Impedance（Harvey Mudd College）](https://pages.hmc.edu/mspencer/e157/fa24/slides/07.pdf) — 反射系数、VSWR与Smith圆图的图形化推导
+
 ## 2.1 传输线方程
 传输线用分布参数模型：单位长度电阻R'、电感L'、电导G'、电容C'。
 电报方程（Telegrapher's Equations）推出电压/电流沿线满足波动方程，

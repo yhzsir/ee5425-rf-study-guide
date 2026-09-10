@@ -11,6 +11,10 @@
 - `Worksheet Bias network.pdf`（偏置电路设计）
 - `EE5425_CityUHK-DG_8_FoRCE_POWERAMP_2026B_Simplified_S.pdf` + Tutorial on Power Amplifiers（功率放大器，进阶）
 
+## 📺 推荐视频
+- [Low Noise Amplifier Design - Part I（Ansys Innovation Courses）](https://innovationspace.ansys.com/courses/courses/low-noise-amplifier-design-in-rf-system/lessons/low-noise-amplifier-design-part-i-lesson-1/) — 噪声系数最小化、噪声圆与增益圆的绘制（17:18有具体例题）
+- [Modelithics LNA Design Example](https://www.youtube.com/watch?v=otVX_PKzHnE) — 从数据手册到实际LNA设计指标的完整流程演示
+
 ## 5.1 小信号放大器设计流程
 1. **选晶体管**，获取其S参数（在工作频点、工作偏置下）
 2. **稳定性检查**（见Module 6，K因子），确保不会自激振荡

@@ -7,6 +7,10 @@
 - `EE5425_CityUHK-DG_6_Oscillators_2026A_r0.pdf`
 - `Tutorial on Oscillator Design.pdf`
 
+## 📺 推荐视频
+- [K-Factor Derivation — Prof. Dr. S. F. Peik（收录于 microwaves101）](https://www.microwaves101.com/encyclopedias/k-factor-derivation) — 完整推导Rollett K因子、稳定圆画法及判断稳定侧的方法（51分钟精讲，含实例晶体管BFP420）
+- [RF Amplifier Stability Factors and Stabilization Techniques（All About Circuits）](https://www.allaboutcircuits.com/technical-articles/rf-amplifier-stability-tests-and-stabilization-techniques/) — K因子与Δ判据图文详解
+
 ## 6.1 稳定性判据
 放大器若不稳定，会自激振荡（变成一个意外的振荡器！），因此设计放大器前必须检查稳定性。
 

@@ -4,6 +4,10 @@
 
 **对应文件**：`EE5425_CityUHK-DG_4_FoRCE_SP_2026A_Sr1.pdf`
 
+## 📺 推荐视频
+- [Why Your Vector Network Analyzer Measurements Are Wrong (And How to Fix It with Calibration)](https://www.youtube.com/watch?v=gJmNBPckqrE) — 从VNA测量原理讲起，帮助理解S参数是如何被测出来的
+- [Understanding VNA Calibration Basics（Rohde & Schwarz）](https://www.youtube.com/watch?v=bLfbg2p7PaE) — S参数测量误差来源与校准标准
+
 ## 学习目标
 理解为什么高频电路要用S参数（散射参数）而不是低频常用的Z/Y/H参数来描述网络。
 

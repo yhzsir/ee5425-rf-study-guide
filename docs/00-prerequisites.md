@@ -4,6 +4,10 @@
 
 RF电路的核心难点不是"新知识"，而是**用复数和相位的语言重新理解电路**。在正式进入课程前，请确保掌握：
 
+## 📺 推荐视频
+- [Phasor and The Phasor Diagram in AC Circuits Explained（ALL ABOUT ELECTRONICS）](https://www.youtube.com/watch?v=zlmwmvijn1Y) — 相量与相量图的直观讲解
+- [EEVblog 1470 – AC Basics Tutorial Part 3 – Complex Numbers are EASY](https://www.eevblog.com/2022/05/01/eevblog-1470-ac-basics-tutorial-part-3-complex-numbers-are-easy/) — 复数在交流电路中的应用，含极坐标/直角坐标互换
+
 ## 0.1 复数与相量（Phasor）
 - 复数的直角坐标 (a+jb) 与极坐标 (r∠θ) 互换
 - 欧拉公式：e^(jθ) = cosθ + j·sinθ
