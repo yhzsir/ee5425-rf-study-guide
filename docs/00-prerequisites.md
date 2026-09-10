@@ -8,6 +8,16 @@ RF电路的核心难点不是"新知识"，而是**用复数和相位的语言�
 - [Phasor and The Phasor Diagram in AC Circuits Explained（ALL ABOUT ELECTRONICS）](https://www.youtube.com/watch?v=zlmwmvijn1Y) — 相量与相量图的直观讲解
 - [EEVblog 1470 – AC Basics Tutorial Part 3 – Complex Numbers are EASY](https://www.eevblog.com/2022/05/01/eevblog-1470-ac-basics-tutorial-part-3-complex-numbers-are-easy/) — 复数在交流电路中的应用，含极坐标/直角坐标互换
 
+## 🎓 老师的话：为什么这一章不能跳过
+很多同学看到"课前准备"会想直接跳到Module 1，这是RF入门最常见的坑。
+我带过的学生里，凡是后期在Smith圆图、S参数上卡壳的，回头一查，
+十有八九是因为"复数运算不熟"或者"没真正理解相量是什么"——不是Module 2/4本身难，
+而是**基础工具不熟练，导致每一步计算都在消耗你的注意力**，没有余力去理解物理意义。
+所以请把这一章当成"磨刀"：磨刀不误砍柴工，这里每一分钟的投入，后面都会加倍还给你。
+
+**自学建议**：不要只看不做。找张纸，把0.1-0.4节里的每个例题**自己重新算一遍**（不看答案），
+算完再对照检查。RF这门课是"手熟"的学科，光看视频/文字，考试时手会生。
+
 ## 0.1 复数与相量（Phasor）
 - 复数的直角坐标 (a+jb) 与极坐标 (r∠θ) 互换
 - 欧拉公式：e^(jθ) = cosθ + j·sinθ

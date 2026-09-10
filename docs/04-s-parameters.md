@@ -8,6 +8,18 @@
 - [Why Your Vector Network Analyzer Measurements Are Wrong (And How to Fix It with Calibration)](https://www.youtube.com/watch?v=gJmNBPckqrE) — 从VNA测量原理讲起，帮助理解S参数是如何被测出来的
 - [Understanding VNA Calibration Basics（Rohde & Schwarz）](https://www.youtube.com/watch?v=bLfbg2p7PaE) — S参数测量误差来源与校准标准
 
+## 🎓 老师的话：S参数是RF工程师的"通用语言"
+在工业界，几乎没有人会把一个RF器件（放大器、滤波器、天线）的规格书写成
+Z参数或Y参数——打开任何一个晶体管、MMIC芯片的Datasheet，看到的都是S参数。
+原因很简单：**S参数是唯一一种可以用实际匹配负载（而非理想开短路）直接测出来的参数**，
+这也是为什么VNA（矢量网络分析仪）测的就是S参数。理解这一点，你就理解了
+为什么这门课要花一整个模块讲S参数——它不是众多参数中随便一种，
+而是你未来查器件手册、和VNA打交道时唯一会遇到的语言。
+
+**自学建议**：不要孤立地记S11/S21/S22/S12的定义公式，
+试着把它们和你已经学过的概念对应起来——S11就是Module 2的反射系数Γ_in，
+S21的模平方就是功率增益，这样记忆量会大幅减少。
+
 ## 学习目标
 理解为什么高频电路要用S参数（散射参数）而不是低频常用的Z/Y/H参数来描述网络。
 

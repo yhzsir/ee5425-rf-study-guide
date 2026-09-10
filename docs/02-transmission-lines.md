@@ -14,6 +14,18 @@
 - [Basic Tools of Microwave Engineering (Prof. Amitabha Bhattacharya, IIT Kharagpur) — Smith Chart 教程](http://www.infocobuild.com/education/audio-video-courses/electronics/BasicToolsMicrowaveEngineering-IIT-Kharagpur/lecture-10.html) — Smith圆图基础与匹配网络设计
 - [Lecture 08: Impedance（Harvey Mudd College）](https://pages.hmc.edu/mspencer/e157/fa24/slides/07.pdf) — 反射系数、VSWR与Smith圆图的图形化推导
 
+## 🎓 老师的话：这是全课程的"地基"，值得你花双倍时间
+我见过太多同学在这一章"看懂了"就往前赶，结果到Module 3做匹配设计、
+Module 6判断稳定性时，发现自己其实没真正掌握Smith圆图的操作直觉——
+只是记住了"顺时针转"这种口诀，却不知道为什么转、转的是什么。
+**这一章的目标不是"记住公式"，而是建立"阻抗↔反射系数↔Smith圆图上一个点"
+这三者之间来回切换的直觉**，这个直觉一旦建立，后面五个模块都会顺很多。
+
+**自学检验标准**：如果我随手给你一个负载阻抗（比如 Z_L=20-j35Ω），
+你应该能在30秒内说出：①它在Smith圆图上大致的位置（哪个象限、
+靠近边缘还是圆心）；②它是容性还是感性；③反射系数模大概多大。
+做不到就说明这一章还需要再练——建议重新过一遍2.2和2.5节的例题。
+
 ## 2.0 为什么需要"传输线理论"？（零基础直觉入门）
 
 在普通电路课里，你学的是"集总参数电路"：一根导线只是把两个元件连起来，

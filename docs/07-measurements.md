@@ -11,6 +11,20 @@
 - [Mini-Circuits eVNA Vector Network Analyzer - SOLT Calibration](https://www.everythingrf.com/videos/details/4572-mini-circuits-evna-vector-network-analyzer-solt-calibration) — 全2端口SOLT校准实操演示
 - [Understanding Spectrum Analyzers – Noise Figure（Rohde & Schwarz）](https://www.everythingrf.com/videos/details/4921-understanding-spectrum-analyzers-noise-figure) — 用频谱分析仪做Y-factor噪声系数测量的简明介绍
 
+## 🎓 老师的话：这一章把前六章"落地"到实验室
+学到这里，你已经掌握了大量理论工具（阻抗、S参数、匹配、增益、稳定性），
+但工程师最终要面对的问题是——**这些量要怎么被实际测出来？测出来的数据
+有多可信？** 这正是Module 7要回答的问题。很多同学以为测量只是"操作仪器"，
+是纯粹的实验技能，与考试无关；但实际上VNA校准（SOLT）背后的数学
+（消除仪器本身误差项）和Y-factor噪声测量的推导，本身就是对前面知识的
+一次很好的复习和检验——如果你能看懂"为什么校准要用Open/Short/Load/Thru
+四种标准件"，说明你已经把反射系数和S参数的概念内化了。
+
+**给自学者、也是给未来工程师的建议**：如果条件允许，一定要找机会摸一次
+真实的VNA（哪怕是学校实验室的旧仪器），亲手做一次SOLT校准、看着
+Smith圆图上的S11轨迹随频率移动——课本上的抽象公式，在你亲眼看到
+仪器屏幕上圆图轨迹跳动的那一刻，才会真正变成你的直觉。
+
 ## 7.1 常用RF测量仪器
 | 仪器 | 测量内容 |
 |---|---|

@@ -11,6 +11,19 @@
 - [K-Factor Derivation — Prof. Dr. S. F. Peik（收录于 microwaves101）](https://www.microwaves101.com/encyclopedias/k-factor-derivation) — 完整推导Rollett K因子、稳定圆画法及判断稳定侧的方法（51分钟精讲，含实例晶体管BFP420）
 - [RF Amplifier Stability Factors and Stabilization Techniques（All About Circuits）](https://www.allaboutcircuits.com/technical-articles/rf-amplifier-stability-tests-and-stabilization-techniques/) — K因子与Δ判据图文详解
 
+## 🎓 老师的话：稳定性和振荡器是"一体两面"
+这一章最容易让初学者困惑的地方是：前半章教你怎么"避免"自激振荡（稳定性判据），
+后半章却教你怎么"故意制造"振荡（振荡器设计）。其实这恰恰揭示了RF工程的一个核心思想：
+**同一套数学工具（K因子、Γin·ΓL的判据），既可以用来防止意外发生的事情，
+也可以用来主动设计想要发生的事情**——放大器设计师害怕的"不稳定"，
+正是振荡器设计师追求的"起振条件"。理解了这层关系，你会发现这一章
+不是两个孤立的话题，而是同一个物理现象的两种应用方向。
+
+**自学建议**：学完6.1-6.2（稳定性）后，先别急着往下看振荡器部分，
+自己先猜一猜"如果我想设计一个振荡器，应该让K因子大于1还是小于1（或者说
+故意选一个不稳定的工作点）"，猜完再看6.3验证——这种"先猜后验证"的方法
+在RF学习中特别有效，因为很多结论其实是可以从物理直觉推出来的。
+
 ## 6.1 稳定性判据
 放大器若不稳定，会自激振荡（变成一个意外的振荡器！），因此设计放大器前必须检查稳定性。
 

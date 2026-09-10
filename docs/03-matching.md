@@ -15,6 +15,21 @@
 - [Impedance Matching Using Stubs - Part 1（Ansys Innovation Courses）](https://innovationspace.ansys.com/courses/courses/impedance-matching/lessons/impedance-matching-using-stubs-part-1-lesson-1/) — L型匹配、单/双支节匹配、λ/4变换器完整讲解（含Smith圆图实操，00:00-34:52为L-section部分）
 - [Smith Chart Impedance Matching: Step-by-Step L-Network Design（rftools.io）](https://rftools.io/blog/smith-chart-impedance-matching-tutorial/) — 带具体数值例题的L网络设计图文教程
 
+## 🎓 老师的话：匹配设计是"用Module 2的工具解决真实问题"
+如果Module 2是学"认字"，Module 3就是学"写句子"——你终于要用Smith圆图
+去**设计**东西了，而不只是分析给定的电路。这是很多同学第一次感到"RF工程"
+真正有实用价值的地方：现实中天线、功放输出、混频器接口的阻抗几乎从不是
+天然50Ω，都需要靠这一章的方法把它们"拉回"匹配状态。
+
+**常见的自学误区**：只记住L型匹配的"四种拓扑选择规则"（Get the right ELL），
+却不理解为什么规则是这样——本质原因是**并联元件把你沿等电阻圆(Smith)/
+等电导圆(导纳圆)移动，串联元件把你沿等电抗圆/等电纳圆移动**，理解了这一点，
+四种拓扑的选择规则会变成"显然"，而不是死记硬背。
+
+**给自学者的练习方法**：拿到一个负载阻抗题目，先别看答案里选的是哪种拓扑，
+自己在圆图上画一遍z_L的位置，判断它落在1+jx圆内还是圆外，
+自己推导出应该用串联还是并联元件——这比直接背规则记得牢得多。
+
 ## 学习目标
 掌握**阻抗匹配**的核心技术——把任意负载阻抗变换到系统特性阻抗（通常50Ω），
 使反射系数Γ=0，实现最大功率传输、消除驻波。

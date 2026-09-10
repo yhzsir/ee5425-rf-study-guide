@@ -15,6 +15,22 @@
 - [Low Noise Amplifier Design - Part I（Ansys Innovation Courses）](https://innovationspace.ansys.com/courses/courses/low-noise-amplifier-design-in-rf-system/lessons/low-noise-amplifier-design-part-i-lesson-1/) — 噪声系数最小化、噪声圆与增益圆的绘制（17:18有具体例题）
 - [Modelithics LNA Design Example](https://www.youtube.com/watch?v=otVX_PKzHnE) — 从数据手册到实际LNA设计指标的完整流程演示
 
+## 🎓 老师的话：这是前四个模块的"综合应用"
+如果你前面Module 2-4学得扎实，Module 5会是你**最有成就感**的一章——
+因为你会发现自己真的能"设计"一个放大器了：用Smith圆图（M2）分析阻抗、
+用匹配网络方法（M3）设计输入输出网络、用S参数（M4）描述晶体管特性，
+三者结合就是完整的放大器设计流程。反过来说，**如果这一章学得吃力，
+往往不是这一章本身的问题，而是提示你需要回头补M2-M4的某个环节**。
+
+**工程直觉提示**：增益和噪声系数几乎总是"对手"关系——追求最大增益的匹配点
+（共轭匹配 Γs=S11*）通常不是噪声最小的匹配点（Γ_opt）。这不是理论上的巧合，
+而是每一个真实LNA设计都要面对的权衡，理解了这个矛盾，你才真正理解了
+为什么Module 5.3要花那么大篇幅讲噪声圆和增益圆的叠加图。
+
+**自学建议**：做5.1-5.3的自测题时，试着口头解释"如果我把这个匹配点
+往增益圆中心移一点，噪声系数会怎么变化"——能预判趋势，说明你真正建立了直觉，
+而不只是会代公式。
+
 ## 5.1 小信号放大器设计流程
 1. **选晶体管**，获取其S参数（在工作频点、工作偏置下）
 2. **稳定性检查**（见Module 6，K因子），确保不会自激振荡
